@@ -1,15 +1,76 @@
 /* header */
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo picture img{
+    width: 30px;
+    height: 30px;
+}
+
+
+#parrila_botones {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+.boton {
+    width: 60px;
+    margin: 20px;
+}
+
+.boton a{ 
+    text-decoration: none;
+    color: black;
+}
+
 /* main */
 
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* nose si esta alineado con el header por la resolucion rara del monitor */
+    /*max-width: 1206px;
+    margin: 0 auto;*/
 }
-.box{
+
+
+.box {
     width: 350px;
-    padding: 20px;
+    height: 400px;
     text-align: center;
+    margin: 2px;
+}
+
+.box img {
+    width: 350px;
+    height: 300px;
+    border-radius: 35px 35px 0px 0px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#redes a picture img{
+    width: 35px;
+    height: 35px;
 }
